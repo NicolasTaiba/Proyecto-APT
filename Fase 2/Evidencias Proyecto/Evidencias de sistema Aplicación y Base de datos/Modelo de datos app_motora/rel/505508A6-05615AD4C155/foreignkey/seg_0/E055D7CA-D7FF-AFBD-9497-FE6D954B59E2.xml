@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E055D7CA-D7FF-AFBD-9497-FE6D954B59E2" containerWithKeyObject="6ED65F52-798E-5853-DC0B-9D9A2A859B97" localFKIndex="21735C81-92DE-8379-83FC-0A93D8CD4D36" name="Auto_Combustibe_FK">
+<createdBy>mamas</createdBy>
+<createdTime>2024-12-06 22:59:22 UTC</createdTime>
+<generatorID>CAD1F954-91AA-8F51-0668-D984FD873C63</generatorID>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<referredTableLongName>Combustibe</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>84370B92-B644-FC13-1E45-4490234A467B</referredTableID>
+<keyObject>96E6C065-0FD9-95B6-D1EA-4FCF74E56DAB</keyObject>
+<referredKeyID>96E6C065-0FD9-95B6-D1EA-4FCF74E56DAB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_combustible</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

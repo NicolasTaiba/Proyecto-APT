@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F5D28A2B-872C-F08C-4D68-C50BC39C3E18" name="Categoria">
+<createdBy>mamas</createdBy>
+<createdTime>2024-12-06 22:50:36 UTC</createdTime>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_categoria" id="09BF4C22-1ECC-3775-1744-8F2C17542EF5">
+<createdBy>mamas</createdBy>
+<createdTime>2024-12-06 22:50:59 UTC</createdTime>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="65E83721-3E8B-1336-9BFC-3DA07A0A5BC4">
+<createdBy>mamas</createdBy>
+<createdTime>2024-12-06 22:51:15 UTC</createdTime>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EECF72FC-427E-153F-2710-F349D57CE232" name="Categoria PK">
+<createdBy>mamas</createdBy>
+<createdTime>2024-12-06 22:51:13 UTC</createdTime>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>09BF4C22-1ECC-3775-1744-8F2C17542EF5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

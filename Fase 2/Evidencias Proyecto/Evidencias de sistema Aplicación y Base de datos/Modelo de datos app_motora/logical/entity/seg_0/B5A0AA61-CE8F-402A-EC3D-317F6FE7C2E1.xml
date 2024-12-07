@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B5A0AA61-CE8F-402A-EC3D-317F6FE7C2E1" name="Cita">
+<createdBy>mamas</createdBy>
+<createdTime>2024-11-16 20:23:55 UTC</createdTime>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cita" id="E9273E8A-2A28-25C1-FBAE-1EB3F7E38917">
+<createdBy>mamas</createdBy>
+<createdTime>2024-11-16 20:24:11 UTC</createdTime>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="7812E398-02CD-CBA8-D390-C14B0420B8D8">
+<createdBy>mamas</createdBy>
+<createdTime>2024-11-16 20:24:26 UTC</createdTime>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="time" id="A492374A-D7F3-97D2-4CDB-3DF5DB0C4E59">
+<createdBy>mamas</createdBy>
+<createdTime>2024-11-16 20:25:03 UTC</createdTime>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datos" id="B1E7583F-F0BC-B508-DDBA-01F61CD0E2C9">
+<createdBy>mamas</createdBy>
+<createdTime>2024-11-16 20:25:10 UTC</createdTime>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="D629C2D4-0A85-29B8-5F77-2282F9313D35">
+<createdBy>mamas</createdBy>
+<createdTime>2024-11-16 20:25:58 UTC</createdTime>
+<generatorID>88DA3295-8B54-0F4C-7716-345FC2F41EF6</generatorID>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<referedAttribute>C1177496-B512-52AD-88E3-887EB88425F9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="9BF92478-7332-3228-BCC7-7C63C423FBEC">
+<createdBy>mamas</createdBy>
+<createdTime>2024-11-16 20:26:34 UTC</createdTime>
+<generatorID>58AB58A2-574B-219E-B28D-F76B3B52A6CE</generatorID>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<referedAttribute>C7917986-C325-DA77-2B14-113F3D136716</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_modelo" id="9AEC7FF2-7CAC-8376-408C-4BB7609B17E4">
+<createdBy>mamas</createdBy>
+<createdTime>2024-12-06 22:57:38 UTC</createdTime>
+<generatorID>88DA3295-8B54-0F4C-7716-345FC2F41EF6</generatorID>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<referedAttribute>1DA3755A-14D8-708E-FE1B-7DA2EFE280B6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_marca" id="9B1B1E3A-0488-5939-83FE-FFB9FEF6C63D">
+<createdBy>mamas</createdBy>
+<createdTime>2024-12-06 22:57:38 UTC</createdTime>
+<generatorID>88DA3295-8B54-0F4C-7716-345FC2F41EF6</generatorID>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<referedAttribute>968CBB33-D2D0-5C16-EAA7-D9E34810B24D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_combustible" id="24A39D94-57B5-949D-1170-C0AD1D244B11">
+<createdBy>mamas</createdBy>
+<createdTime>2024-12-06 22:58:31 UTC</createdTime>
+<generatorID>88DA3295-8B54-0F4C-7716-345FC2F41EF6</generatorID>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<referedAttribute>3D0548CB-4301-578B-FC1D-8F6F6A601C05</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_categoria" id="F80EBF5E-4127-D97A-C6DD-BA83851BEBE4">
+<createdBy>mamas</createdBy>
+<createdTime>2024-12-06 23:02:12 UTC</createdTime>
+<generatorID>88DA3295-8B54-0F4C-7716-345FC2F41EF6</generatorID>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<referedAttribute>C10D657F-E452-0732-7FDE-E57065336749</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1F95635C-B95F-972F-7375-6F9A86E8391E" name="Cita PK">
+<createdBy>mamas</createdBy>
+<createdTime>2024-11-16 20:24:25 UTC</createdTime>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E9273E8A-2A28-25C1-FBAE-1EB3F7E38917</attributeRef>
+<attributeRef>D629C2D4-0A85-29B8-5F77-2282F9313D35</attributeRef>
+<attributeRef>9AEC7FF2-7CAC-8376-408C-4BB7609B17E4</attributeRef>
+<attributeRef>9B1B1E3A-0488-5939-83FE-FFB9FEF6C63D</attributeRef>
+<attributeRef>24A39D94-57B5-949D-1170-C0AD1D244B11</attributeRef>
+<attributeRef>F80EBF5E-4127-D97A-C6DD-BA83851BEBE4</attributeRef>
+<attributeRef>9BF92478-7332-3228-BCC7-7C63C423FBEC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

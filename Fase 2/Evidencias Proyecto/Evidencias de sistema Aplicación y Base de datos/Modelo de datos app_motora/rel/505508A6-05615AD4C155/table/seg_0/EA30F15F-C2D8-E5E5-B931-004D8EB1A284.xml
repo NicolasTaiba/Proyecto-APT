@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA30F15F-C2D8-E5E5-B931-004D8EB1A284" name="account_emailconfirmation">
+<createdBy>mamas</createdBy>
+<createdTime>2024-11-16 20:27:21 UTC</createdTime>
+<generatorID>9C703EDC-5617-2EAC-64A8-9151930B9B28</generatorID>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="ABF575EA-DCA4-93B6-A3D5-26F61F87CB5A">
+<createdBy>mamas</createdBy>
+<createdTime>2024-11-16 20:27:21 UTC</createdTime>
+<generatorID>5798C14A-1FDD-86E4-1363-DC62E2C0AE01</generatorID>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created" id="2DBDC7F6-E407-546E-A3B6-D480E2866C9E">
+<createdBy>mamas</createdBy>
+<createdTime>2024-11-16 20:27:21 UTC</createdTime>
+<generatorID>303D7AE7-08D4-AAF0-D507-5A67C4C75C46</generatorID>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sent" id="69A1EDED-6651-EBA3-7BDE-C993DF0F69D5">
+<createdBy>mamas</createdBy>
+<createdTime>2024-11-16 20:27:21 UTC</createdTime>
+<generatorID>E23E2D53-1123-FB34-0C4F-2E34ED28C960</generatorID>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="key" id="55C1685F-8F23-BFB4-8870-5EDB7E24F9C6">
+<createdBy>mamas</createdBy>
+<createdTime>2024-11-16 20:27:21 UTC</createdTime>
+<generatorID>042ECF23-D41A-731A-E940-3A9072530C54</generatorID>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="account_emailadress;_id" id="346E3486-DDDB-5859-903B-F8334C467A4C">
+<createdBy>mamas</createdBy>
+<createdTime>2024-11-16 20:27:21 UTC</createdTime>
+<generatorID>5E49AD07-65A8-1F35-CF2D-ACB6C90230B7</generatorID>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2E57A06-2B52-135D-379A-33290B5C79BD" referredColumn="CE92B88E-A7FB-1CCE-B24D-9E70EE87C20A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF8ECA77-2EE0-0F8E-8B2B-29347AEA9ADB" name="account_emailconfirmation_PK">
+<createdBy>mamas</createdBy>
+<createdTime>2024-11-16 20:27:21 UTC</createdTime>
+<generatorID>BCADB247-20E1-3847-2F69-71FB933DDD68</generatorID>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABF575EA-DCA4-93B6-A3D5-26F61F87CB5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BDE909B-095B-45CD-572E-913F44A41F66" name="account_emailconfirmation_account_emailadress;_FK">
+<createdBy>mamas</createdBy>
+<createdTime>2024-11-16 20:27:21 UTC</createdTime>
+<generatorID>3FCA8EED-B614-D675-4A43-432254984C63</generatorID>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="346E3486-DDDB-5859-903B-F8334C467A4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

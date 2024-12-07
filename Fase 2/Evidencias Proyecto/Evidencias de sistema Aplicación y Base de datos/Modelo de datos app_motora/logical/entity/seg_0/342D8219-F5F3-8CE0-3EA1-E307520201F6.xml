@@ -1,0 +1,193 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="342D8219-F5F3-8CE0-3EA1-E307520201F6" name="Auto">
+<createdBy>mamas</createdBy>
+<createdTime>2024-09-23 15:21:27 UTC</createdTime>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="matricula" id="C1177496-B512-52AD-88E3-887EB88425F9">
+<createdBy>mamas</createdBy>
+<createdTime>2024-09-23 15:21:34 UTC</createdTime>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anno" id="8DAACE52-C268-C4D8-A48E-67D588FEA8A4">
+<createdBy>mamas</createdBy>
+<createdTime>2024-09-23 15:22:20 UTC</createdTime>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio" id="2DC4BD14-9B22-BED1-17A1-45CFE4DBA2F8">
+<createdBy>mamas</createdBy>
+<createdTime>2024-09-23 15:22:40 UTC</createdTime>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kilometraje" id="A8929FEB-082E-FBBB-0B40-B47CB9EDD86E">
+<createdBy>mamas</createdBy>
+<createdTime>2024-09-23 15:23:02 UTC</createdTime>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="A7F8AC5F-70CA-C1FE-4E7C-FD3BA295819C">
+<createdBy>mamas</createdBy>
+<createdTime>2024-09-23 15:25:26 UTC</createdTime>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is_deleted" id="57E295F0-DA51-CFE6-10BC-2FFBA0FD2FA1">
+<createdBy>mamas</createdBy>
+<createdTime>2024-09-23 15:25:59 UTC</createdTime>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="destacado" id="DC777A05-20E7-3552-5733-93D6B55D0E44">
+<createdBy>mamas</createdBy>
+<createdTime>2024-12-06 22:54:07 UTC</createdTime>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imagen_principal" id="0B27A125-0F2E-4232-E1BC-889172C85D35">
+<createdBy>mamas</createdBy>
+<createdTime>2024-12-06 22:54:50 UTC</createdTime>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_modelo" id="1DA3755A-14D8-708E-FE1B-7DA2EFE280B6">
+<createdBy>mamas</createdBy>
+<createdTime>2024-12-06 22:57:38 UTC</createdTime>
+<generatorID>B085D97A-F5D4-33CC-7837-BC289418976A</generatorID>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<referedAttribute>25F19A8B-376C-76B0-E717-E15EA2206901</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_marca" id="968CBB33-D2D0-5C16-EAA7-D9E34810B24D">
+<createdBy>mamas</createdBy>
+<createdTime>2024-12-06 22:57:38 UTC</createdTime>
+<generatorID>B085D97A-F5D4-33CC-7837-BC289418976A</generatorID>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<referedAttribute>B7C3007C-7067-CF5F-312F-0A94A3AB127B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_combustible" id="3D0548CB-4301-578B-FC1D-8F6F6A601C05">
+<createdBy>mamas</createdBy>
+<createdTime>2024-12-06 22:58:31 UTC</createdTime>
+<generatorID>CAD1F954-91AA-8F51-0668-D984FD873C63</generatorID>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<referedAttribute>AE045BC9-A9CD-D55C-DC84-E7520FE51A82</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_categoria" id="C10D657F-E452-0732-7FDE-E57065336749">
+<createdBy>mamas</createdBy>
+<createdTime>2024-12-06 23:02:12 UTC</createdTime>
+<generatorID>78921371-51B9-DF52-00B6-D606B4EF4C47</generatorID>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<referedAttribute>09BF4C22-1ECC-3775-1744-8F2C17542EF5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="17D76C02-E555-DB54-D54C-FCCCA0F63CC9" name="Auto PK">
+<createdBy>mamas</createdBy>
+<createdTime>2024-09-23 15:21:43 UTC</createdTime>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<engineerTo>
+<item key="505508A6-C9FE-0EC7-4FD3-05615AD4C155" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C1177496-B512-52AD-88E3-887EB88425F9</attributeRef>
+<attributeRef>1DA3755A-14D8-708E-FE1B-7DA2EFE280B6</attributeRef>
+<attributeRef>968CBB33-D2D0-5C16-EAA7-D9E34810B24D</attributeRef>
+<attributeRef>3D0548CB-4301-578B-FC1D-8F6F6A601C05</attributeRef>
+<attributeRef>C10D657F-E452-0732-7FDE-E57065336749</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

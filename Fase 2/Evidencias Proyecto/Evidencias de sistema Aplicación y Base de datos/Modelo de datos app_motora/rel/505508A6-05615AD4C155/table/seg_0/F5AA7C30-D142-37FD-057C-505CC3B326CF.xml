@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5AA7C30-D142-37FD-057C-505CC3B326CF" name="Modelo">
+<createdBy>mamas</createdBy>
+<createdTime>2024-12-06 22:59:22 UTC</createdTime>
+<generatorID>67086146-7353-6DC8-2B14-9AA478CD0906</generatorID>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_modelo" id="F1C83919-D718-D22B-1A1E-EC7D7ECFF2CD">
+<createdBy>mamas</createdBy>
+<createdTime>2024-12-06 22:59:22 UTC</createdTime>
+<generatorID>25F19A8B-376C-76B0-E717-E15EA2206901</generatorID>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="C643A611-C5A0-CACA-BE8C-AED7D50F06CD">
+<createdBy>mamas</createdBy>
+<createdTime>2024-12-06 22:59:22 UTC</createdTime>
+<generatorID>3273E0C8-8EBA-C4BE-C217-A276AA472CE9</generatorID>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Marca_id_marca" id="ABE4D35C-E60A-FFA8-141F-D5CCA1D369D5">
+<createdBy>mamas</createdBy>
+<createdTime>2024-12-06 22:59:22 UTC</createdTime>
+<generatorID>B7C3007C-7067-CF5F-312F-0A94A3AB127B</generatorID>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D7AB295-432F-6E5D-4D19-6455E154CCF2" referredColumn="69F9D7E3-C442-8D9F-0746-F7A77B0BFBCC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E38115DC-D44F-18AF-BD9D-2B02605EBD3A" name="Modelo_PK">
+<createdBy>mamas</createdBy>
+<createdTime>2024-12-06 22:59:22 UTC</createdTime>
+<generatorID>8E742A44-21EF-DF4F-22FE-9E8D1CDFB33D</generatorID>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1C83919-D718-D22B-1A1E-EC7D7ECFF2CD"/>
+<colUsage columnID="ABE4D35C-E60A-FFA8-141F-D5CCA1D369D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BEC42062-FEBF-3CCE-3CB1-83A29B652021" name="Modelo_Marca_FK">
+<createdBy>mamas</createdBy>
+<createdTime>2024-12-06 22:59:22 UTC</createdTime>
+<generatorID>7B669B2E-D2E5-C407-D9B9-DE700A310B7E</generatorID>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABE4D35C-E60A-FFA8-141F-D5CCA1D369D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

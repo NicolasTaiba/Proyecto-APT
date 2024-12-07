@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="42A6544A-B4DD-5531-F774-830B1FDC9044" containerWithKeyObject="5ECBC1C4-123F-6373-5B75-C94280059086" localFKIndex="EBD90EC2-85F8-DA40-5244-2E51AF2D3EE8" name="Cita_auth_user_FK">
+<createdBy>mamas</createdBy>
+<createdTime>2024-11-16 20:27:21 UTC</createdTime>
+<generatorID>58AB58A2-574B-219E-B28D-F76B3B52A6CE</generatorID>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<referredTableLongName>auth_user</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E4C987AB-7269-F370-D6FF-3FE5368CC5DA</referredTableID>
+<keyObject>65675C27-1353-1FC1-89B2-D84101D63E02</keyObject>
+<referredKeyID>65675C27-1353-1FC1-89B2-D84101D63E02</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

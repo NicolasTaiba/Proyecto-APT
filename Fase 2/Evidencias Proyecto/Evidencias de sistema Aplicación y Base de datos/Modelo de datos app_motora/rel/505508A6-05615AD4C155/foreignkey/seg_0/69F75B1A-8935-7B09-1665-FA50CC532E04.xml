@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="69F75B1A-8935-7B09-1665-FA50CC532E04" containerWithKeyObject="5ECBC1C4-123F-6373-5B75-C94280059086" localFKIndex="A8194FB1-0C58-7CDF-F0C3-D9EAA4D65FDE" name="Cita_Auto_FK">
+<createdBy>mamas</createdBy>
+<createdTime>2024-11-16 20:27:21 UTC</createdTime>
+<generatorID>88DA3295-8B54-0F4C-7716-345FC2F41EF6</generatorID>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<referredTableLongName>Auto</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6ED65F52-798E-5853-DC0B-9D9A2A859B97</referredTableID>
+<keyObject>651E2CA5-C1D5-2348-EF6D-E179D6F23977</keyObject>
+<referredKeyID>651E2CA5-C1D5-2348-EF6D-E179D6F23977</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>matricula</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

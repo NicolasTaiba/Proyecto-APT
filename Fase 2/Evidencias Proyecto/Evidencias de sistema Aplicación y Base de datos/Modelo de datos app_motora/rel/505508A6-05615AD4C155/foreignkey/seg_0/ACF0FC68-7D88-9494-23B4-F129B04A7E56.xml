@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ACF0FC68-7D88-9494-23B4-F129B04A7E56" containerWithKeyObject="6ED65F52-798E-5853-DC0B-9D9A2A859B97" localFKIndex="0E135CF3-EF7F-AD15-C8FE-D2B328E8538F" name="Auto_Categoria_FK">
+<createdBy>mamas</createdBy>
+<createdTime>2024-12-06 23:02:16 UTC</createdTime>
+<generatorID>78921371-51B9-DF52-00B6-D606B4EF4C47</generatorID>
+<ownerDesignName>Modelo de datos app_motora</ownerDesignName>
+<referredTableLongName>Categoria</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9FAE1189-60BE-9026-5B7F-6A87C37F9621</referredTableID>
+<keyObject>CEDA419E-2764-7DBF-FD74-7D8E54968E11</keyObject>
+<referredKeyID>CEDA419E-2764-7DBF-FD74-7D8E54968E11</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_categoria</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
